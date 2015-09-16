@@ -1,46 +1,71 @@
 html {
 	font-size: 10px;
+	font-family: 'Goudy Bookletter 1911', serif;
 }
 .block {
 	max-width: 60rem;
 	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid black;
 }
 .header {
-	padding: 5rem 5rem 1rem 1rem;
-	background-color: #76786a;
+	padding: 12rem 1rem 1rem 1rem;
+	background-color: white;
 }
 .header__logo {
-	font-size: 3rem;
-	font-family: serif;
+	font-size: 3.5rem;
+	color: #151515;
+	text-align: center;
 }
 .box {
 	padding: 10rem 5rem 1rem 1rem;
 }
 a {
 	font-size: 2rem;
-	color: black;
+	color: #f4f3f1;
+	text-shadow: 1px .5px #2e312b;
 	text-decoration: none;
 	display: inline-block;
 }
-.pages__text {
-	font-size: 2rem;
-	color: black;
-	display: block;
-}
 .box--visit {
-	background-color: #dbd7d2;
+	background-image: url("../objects/001.jpg")
 }
 .box--collection {
-	background-color: #d3d3d3;
+	background-image: url("../objects/002.jpg")
 }
 .box--about {
-	background-color: #acaa9c;
+	background-image: url("../objects/003.jpg")
 }
 .footer {
-	padding: 2rem 5rem 1rem 1rem;
-	background-color: #757575;
-
+	padding: 1rem 5rem 1rem 1rem;
+	background-color: #151515;
 }
 .footer__copyright {
 	font-size: 1rem;
+	color: #e5e3df;;
 }
+
+/*PAGES STYLES */
+
+.pages__text {
+	font-size: 2rem;
+	color: #f4f3f1;
+	text-shadow: 1px .5px #2e312b;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.item {
+
+}
+.item__image {
+	height: 20rem;
+	background-image: url("../objects/004.jpg")
+	background-size: cover;
+}
+.item__text {
+	font-size: 2rem;
+}
+
+
+
