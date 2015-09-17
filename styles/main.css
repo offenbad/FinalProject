@@ -13,7 +13,7 @@ html {
 	background-color: white;
 }
 .header__logo {
-	font-size: 3.5rem;
+	font-size: 4rem;
 	color: #151515;
 	text-align: center;
 }
@@ -22,11 +22,10 @@ html {
 	background-size: cover;
 }
 .box__text {
-	font-size: 2rem;
-	font-outline: 1px solid black;
+	font-size: 2.5rem;
 	color: #f4f3f1;
 	display: block;
-	text-shadow: 1px 1px #414a4c;
+	text-shadow: 1.5px 1.5px 1.5px #171815;
 }
 a {
 	font-size: 2rem;
@@ -44,7 +43,7 @@ a {
 	background-image: url("../objects/003.jpg");
 }
 .footer {
-	padding: 1rem 5rem 1rem 1rem;
+	padding: 1rem 1rem .5rem 1rem;
 	background-color: #151515;
 }
 .footer__copyright {
@@ -64,15 +63,14 @@ a {
 /*COLLECTION PAGE*/
 .questions {
 	display: inline-block;
-	background-color: #acaa9c;
-	border: .5rem .5 #76786a;
-	border-radius: .2rem;
-    color: #f4f3f1;
-    margin: 3rem 1.5rem 0rem 0rem;
-    padding: .75rem;
+	background-color: #f4f3f1;
+	border: 1px solid #040707;
+	border-radius: 2px;
+    color: #040707;
+    margin: 4rem 1.5rem 0rem 0rem;
+    padding: 2rem .75rem;
     font-size: 1.7rem;
     font-family: 'Goudy Bookletter 1911', serif;
-    text-shadow: .5px .5px #414a4c;
 }
 	
 
