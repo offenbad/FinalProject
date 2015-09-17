@@ -19,22 +19,29 @@ html {
 }
 .box {
 	padding: 10rem 5rem 1rem 1rem;
+	background-size: cover;
+}
+.box__text {
+	font-size: 2rem;
+	font-outline: 1px solid black;
+	color: #f4f3f1;
+	display: block;
+	text-shadow: 1px 1px #414a4c;
 }
 a {
 	font-size: 2rem;
 	color: #f4f3f1;
-	text-shadow: 1px .5px #2e312b;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 }
 .box--visit {
-	background-image: url("../objects/001.jpg")
+	background-image: url("../objects/001.jpg");
 }
 .box--collection {
-	background-image: url("../objects/002.jpg")
+	background-image: url("../objects/002.jpg");
 }
 .box--about {
-	background-image: url("../objects/003.jpg")
+	background-image: url("../objects/003.jpg");
 }
 .footer {
 	padding: 1rem 5rem 1rem 1rem;
@@ -42,30 +49,42 @@ a {
 }
 .footer__copyright {
 	font-size: 1rem;
-	color: #e5e3df;;
+	color: #e5e3df;
 }
 
 /*PAGES STYLES */
-
-.pages__text {
-	font-size: 2rem;
-	color: #f4f3f1;
-	text-shadow: 1px .5px #2e312b;
-	text-decoration: none;
-	display: inline-block;
+.box--pages--small {
+	padding: 5rem 1rem 1rem 5rem;
+	text-align: right;
+}
+.box--pages--large {
+	padding: 5rem 5rem 5rem 1rem;
 }
 
+/*ITEM PAGES*/
 .item {
-
+	max-width: 40rem;
+	margin: 0 auto;
+	padding: 2rem;
+	box-sizing: border-box;
+	border: none;
 }
 .item__image {
-	height: 20rem;
-	background-image: url("../objects/004.jpg")
+	height: 40rem;
+	max-width: 40rem;
+	border: 1rem solid #e5e3df;
 	background-size: cover;
+	background-position: center;
 }
 .item__text {
 	font-size: 2rem;
+	color: #76786a;
+	margin-top: 2rem;
 }
+.item__image--004 {
+	background-image: url("../objects/004.jpg");
+}
+	
 
 
 
