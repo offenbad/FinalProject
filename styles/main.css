@@ -58,8 +58,23 @@ a {
 	text-align: right;
 }
 .box--pages--large {
-	padding: 5rem 5rem 5rem 1rem;
+	padding: 5rem 1rem;
 }
+
+/*COLLECTION PAGE*/
+.questions {
+	display: inline-block;
+	background-color: #acaa9c;
+	border: .5rem .5 #76786a;
+	border-radius: .2rem;
+    color: #f4f3f1;
+    margin: 3rem 1.5rem 0rem 0rem;
+    padding: .75rem;
+    font-size: 1.7rem;
+    font-family: 'Goudy Bookletter 1911', serif;
+    text-shadow: .5px .5px #414a4c;
+}
+	
 
 /*ITEM PAGES*/
 .item {
