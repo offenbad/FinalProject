@@ -22,17 +22,15 @@ html {
 	background-size: cover;
 }
 .box__text {
-	font-size: 2.5rem;
-	color: #f4f3f1;
-	display: block;
-	text-shadow: 1.5px 1.5px 1.5px #171815;
+	font-size: 2.7rem;
+	color: #151515;
+	background-color: rgba(240, 239, 237, 0.75);
+	display: inline-block;
 }
 a {
-	font-size: 2rem;
-	color: #f4f3f1;
 	text-decoration: none;
-	display: block;
 }
+
 .box--visit {
 	background-image: url("../objects/001.jpg");
 }
@@ -42,6 +40,7 @@ a {
 .box--about {
 	background-image: url("../objects/003.jpg");
 }
+
 .footer {
 	padding: 1rem 1rem .5rem 1rem;
 	background-color: #151515;
@@ -57,24 +56,35 @@ a {
 	text-align: right;
 }
 .box--pages--large {
-	padding: 5rem 1rem;
+	padding: 10rem 1.5rem;
+	background-color: #151515;
+}
+.box--pages--large__text {
+	font-size: 2.3rem;
+	color: #e5e3df;
+	display: block;
 }
 
+
+
 /*COLLECTION PAGE*/
-.questions {
+
+.collection__nav {
 	display: inline-block;
-	background-color: #f4f3f1;
+	background-color: rgba(1, 1, 1, 0.7);
 	border: 1px solid #040707;
 	border-radius: 2px;
-    color: #040707;
+    color: #e5e3df;
     margin: 4rem 1.5rem 0rem 0rem;
-    padding: 2rem .75rem;
+    padding: 4.2rem;
     font-size: 1.7rem;
     font-family: 'Goudy Bookletter 1911', serif;
 }
+
 	
 
 /*ITEM PAGES*/
+
 .item {
 	max-width: 40rem;
 	margin: 0 auto;
@@ -82,22 +92,23 @@ a {
 	box-sizing: border-box;
 	border: none;
 }
-.item__image {
-	height: 40rem;
-	max-width: 40rem;
-	border: 1rem solid #e5e3df;
-	background-size: cover;
-	background-position: center;
-}
 .item__text {
 	font-size: 2rem;
 	color: #76786a;
 	margin-top: 2rem;
 }
-.item__image--004 {
-	background-image: url("../objects/004.jpg");
+.item__image {
+	height: 40rem;
+	max-width: 40rem;
+	border: 1rem solid #e5e3df;
+	size: cover;
+	position: center;
 }
-	
+img {
+	width: 100%;
+	height: 100%;
+}
+
 
 
 
