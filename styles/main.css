@@ -129,7 +129,7 @@ a {
 
 .item {
 	max-width: 40rem;
-	margin: 0 auto;
+	margin: .5rem auto;
 	box-sizing: border-box;
 	padding: 2rem;
 	border: 1px solid #c8c9c3;
