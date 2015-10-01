@@ -69,9 +69,10 @@ a {
 
 
 /*COLLECTION PAGE*/
-
 .collection__navigation {
 	padding-top: 3rem;
+	box-sizing: border-box;
+	width: 100%;
 }
 .collection__nav {
 	font-family: 'Goudy Bookletter 1911', serif;
@@ -81,9 +82,10 @@ a {
 	border: 1px solid #2f302a;
 	border-radius: 2px;
     padding: 4rem;
-    margin: 1rem;
     display: inline-block; 
-    background-size: cover;
+    width: 33%;
+	box-sizing: border-box;
+	float: left;
 }
 
 .collection--second--color {
@@ -97,14 +99,23 @@ a {
 }
 
 
-.color--bdb76b {
+.color--peaty-tan {
 	background-color: #bdb76b;
 }
-.color--eee8aa {
-	background-color: #eee8aa;
+.color--warm-stone {
+	background-color: #7b7356;
 }
-.color--f5f5dc {
-	background-color: #f5f5dc;
+.color--outer-space {
+	background-color: #414a4c;
+}
+.color--cool-stone {
+	background-color: #858471;
+}
+.color--plant-green {
+	background-color: #2f4f4f;
+}
+.color--almost-black {
+	background-color: #4a443e;
 }
 
 
@@ -121,6 +132,17 @@ a {
 	color: #eaeded;
 }
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
 
 
 	
@@ -129,7 +151,7 @@ a {
 
 .item {
 	max-width: 40rem;
-	margin: .5rem auto;
+	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 2rem;
 	border: 1px solid #c8c9c3;
@@ -177,4 +199,3 @@ img {
 	max-width: 38rem;
 	margin: 0 auto;
 }
-
