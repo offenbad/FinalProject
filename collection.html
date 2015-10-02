@@ -13,138 +13,111 @@
 
 <body>
 
-
-	<div class="block header">
-	
+	<div class="block header header--pages">
 		<a href="index.html">
-		<div class= "header__logo">
+			<div class= "header__logo header__logo--pages">
 			The Museum of Everything
-		</div>
+			</div>
 		</a>
-
 	</div>
 
-	<div class="block box box--pages--large clearfix">
+
+
+	<div class="block box--pages--large clearfix">
+
+
+		<div class="box--pages--large__text">
+			Explore the Collection
+		</div>
+
+
+		<div class="button-group filter-button-group">
+			<button class="filter-button" data-filter="*">
+				show all</button>
+			<button class="filter-button" data-filter=".flora">
+				flora</button>
+			<button class="filter-button" data-filter=".fauna">
+				fauna</button>
+			<button class="filter-button" data-filter=".ephemera">
+				ephemera</button>
+			<button class="filter-button" data-filter=".indoors">
+				indoors</button>
+			<button class="filter-button" data-filter=".outdoors">
+				outdoors</button>
+			<button class="filter-button" data-filter=".art">
+				art</button>
+		</div>
+
+		<div class="button-group sort-button-group">
+			<button class="color-button color--light-faun"></button>
+			<button class="color-button color--sonic-silver"></button>
+			<button class="color-button color--cool-stone"></button>
+			<button class="color-button color--warm-stone"></button>
+			<button class="color-button color--peaty-tan"></button>
+			<button class="color-button color--plant-green"></button>
+			<button class="color-button color--outer-space"></button>
+			<button class="color-button color--almost-black"></button>
+			<button class="color-button color--really-almost-black"></button>
 
 			
-		<div class="collection--first">
+		</div>
 
-			<div class="box--pages--large__text">
-				Explore the Collection...
-			</div>
+		<div class="grid">
 
-			<div class="collection__navigation">
+		  	<div class="element-item fauna outdoors">
+			  	<img class="element-item__image" src="objects/004.jpg">
+			    <div class="element-item__text title">TITLE: toad</div>
+			    <div class="element-item__text creator">CREATOR: god</div>
+			    <div class="element-item__text department">DEPARTMENT: Amphibians, small</div>
+			    <div class="element-item__text weight">200.59</div>
+		  	</div>
 
-				<button class="collection__nav
-				collection__nav--medium
-				js-collection__nav--medium">
-					by Medium
-				</button>
+			<div class="element-item fauna indoors outdoors ephemera">
+			  	<img class="element-item__image" src="objects/001.jpg">
+			    <h3 class="title">TITLE: moth</h3>
+			    <p class="creator">CREATOR: god</p>
+			    <p class="department">DEPARTMENT: Lepedoptera</p>
+			    <p class="weight">200.59</p>
+		 	</div>
 
-				<button class="collection__nav
-				collection__nav--color 
-				js-collection__nav--color">
-					by Colour
-				</button>
+			 <div class="element-item ephemera indoors outdoors">
+			  	<img class="element-item__image" src="objects/005.jpg">
+			    <h3 class="title">TITLE: waterdroplets on glass on brick</h3>
+			    <p class="creator">CREATOR: god</p>
+			    <p class="department">DEPARTMENT: Ephemera</p>
+			    <p class="weight">200.59</p>
+			 </div>
 
-				<a href="item_template.html">
-				<button class="collection__nav
-				collection__nav--item">
-					by Item
-				</button></a>
-				
-				
-			</div>
+			 <div class="element-item fauna indoors ephemera">
+			  	<img class="element-item__image" src="objects/009.jpg">
+			    <h3 class="title">TITLE: sunlight in window with boy</h3>
+			    <p class="creator">CREATOR: god</p>
+			    <p class="department">DEPARTMENT: Ephemera</p>
+			    <p class="weight">200.59</p>
+			 </div>
+
+			<div class="element-item indoors outdoors ephemera art">
+			  	<img class="element-item__image" src="objects/010.jpg">
+			    <h3 class="title">TITLE: house, soon to be toen down</h3>
+			    <p class="creator">CREATOR: man</p>
+			    <p class="department">DEPARTMENT: Architecture</p>
+			    <p class="weight">200.59</p>
+		  	</div>
+
+			  <div class="element-item fauna indoors art">
+			  	<img class="element-item__image" src="objects/011.jpg">
+			    <h3 class="title">TITLE: caterpillar in print</h3>
+			    <p class="creator">CREATOR: man</p>
+			    <p class="department">Lepedoptera, Works on Paper</p>
+			    <p class="weight">200.59</p>
+			  </div>
+			
 
 		</div>
 
-
-
-		<div class="collection--second--color">
-
-			<div class="box--pages--large__text">
-				Explore the Collection...by Colour
-			</div>
-
-			<div class="collection__navigation
-			collection__navigation--color">
-
-				<button class="collection__nav
-				color--peaty-tan">
-					peaty-tan
-				</button>
-
-				<button class="collection__nav
-				color--warm-stone">
-					warm-stone
-				</button>
-
-				<button class="collection__nav
-				color--cool-stone">
-					cool-stone
-				</button>				
-
-				<button class="collection__nav
-				color--outer-space">
-					outer-space
-				</button>
-				
-				<button class="collection__nav
-				color--plant-green">
-					plant-green
-				</button>
-
-				<button class="collection__nav
-				color--almost-black">
-					almost-black
-				</button>
-
-			</div>
-
-		</div>
-
-
-		<div class="collection--second--medium">
-
-			<div class="box--pages--large__text">
-				Explore the Collection...by Medium
-			</div>
-
-			<div class="collection__navigation
-			collection__navigation--medium">
-
-				<button class="collection__nav
-				medium--animal">
-					ANIMAL
-				</button>
-
-				<button class="collection__nav
-				medium--vegetable">
-					VEGETABLE
-				</button>
-
-				<button class="collection__nav
-				medium--mineral">
-					MINERAL
-				</button>
-
-			</div>
-
-		</div>
-
-
-
+			
 	</div>
-		
 
-		<div class="block box box--collection 
-			box--pages--small 
-			collection--second--color
-			collection--second--medium">
-			<a href="collection.html" class="box__text">
-				Explore the collection
-			</a>
-		</div>
 
 
 		<div class="block box box--visit
@@ -162,20 +135,23 @@
 			class="box__text">
 				About the Museum
 			</a>
-		</div>
-		
+		</div>	
+
 
 		<div class="block footer">
-
 			<div class="footer__copyright">
 				Copyright? Probably not.
 			</div>
-
 		</div>
 
 
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js'></script>
+	<script src="js/isotope.js"></script>
 	<script src="js/main.js"></script>
+	
+
  
 </body>
 

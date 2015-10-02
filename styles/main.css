@@ -52,6 +52,12 @@ a {
 
 
 /*PAGES STYLES */
+.header--pages {
+	background-color: #151515;
+}
+.header__logo--pages {
+	color: #e5e3df;
+}
 .box--pages--small {
 	padding: 5rem 1rem 1rem 5rem;
 	text-align: right;
@@ -70,36 +76,41 @@ a {
 
 
 /*COLLECTION PAGE*/
-.collection__navigation {
-	padding-top: 3rem;
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.button-group {
+	padding: 2rem 1.5rem;
 	box-sizing: border-box;
 	width: 100%;
 }
-.collection__nav {
+.filter-button {
 	font-family: 'Goudy Bookletter 1911', serif;
-	font-size: 1.7rem;
-	color: #d5d6d2;
-	background-color: #0b0c0a;
-	border: 1px solid #2f302a;
-	border-radius: 2px;
-    padding: 4rem;
-    display: inline-block; 
-    width: 33%;
+	border: 1px solid #c8c9c3;
+	border-radius: 2rem;
+	background-color: white;
+	padding: 1rem;
+	width: 14%;
 	box-sizing: border-box;
 	float: left;
 }
-
-.collection--second--color {
-	display: none;
+.color-button {
+	border-radius: 2rem;
+	border: 1px solid white;
+	height: 3.7rem;
+	width: 11%;
+	float: left;
 }
-.collection--second--medium {
-	display: none;
-}
-.collection--second--showing {
-	display: block;
-}
-
-
 .color--peaty-tan {
 	background-color: #bdb76b;
 }
@@ -118,52 +129,18 @@ a {
 .color--almost-black {
 	background-color: #4a443e;
 }
-
-
-.medium--animal {
-	background-image: url("../objects/001.jpg");
-	color: #0e1717;
+.color--light-faun {
+	background-color: #cdc5c2;
 }
-.medium--vegetable {
-	background-image: url("../objects/003.jpg");
-	color: #f2f1ef;
+.color--sonic-silver {
+	background-color: #757575;
 }
-.medium--mineral {
-	background-image: url("../objects/005.jpg");
-	color: #eaeded;
+.color--really-almost-black {
+	background-color: #151515;
 }
 
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-
-
-	
-/*ITEM PAGES ISOTOPE*/
-.button-group {
-	padding: 2rem 1.5rem;
-	box-sizing: border-box;
-	width: 100%;
-}
-.button {
-	font-family: 'Goudy Bookletter 1911', serif;
-	border: 1px solid #c8c9c3;
-	border-radius: 2rem;
-	background-color: white;
-	padding: 1rem;
-	width: 14%;
-	box-sizing: border-box;
-	float: left;
-}
 .grid {
+	padding-top: 2rem;
 	box-sizing: border-box;
 	width: 100%;
 }
@@ -186,36 +163,19 @@ a {
 	position: center;
 	box-sizing: border-box;
 }
-
-
-
-
-
-/*ITEM PAGES*/
-
-
-.item {
-	max-width: 40rem;
-	margin: 2rem auto;
-	box-sizing: border-box;
-	padding: 2rem;
-	border: 1px solid #c8c9c3;
-}
-.item__text {
-	font-size: 2rem;
-	color: #76786a;
-}
-.item__image {
-	height: 40rem;
-	max-width: 40rem;
-	border: 1rem solid #e5e3df;
-	size: cover;
-	position: center;
-	box-sizing: border-box;
-}
 img {
 	width: 100%;
 	height: 100%;
+}
+.element-item__text--title {
+	padding-top: 2rem;
+}
+.element-item__text {
+	padding-top: .5rem;
+	font-size: 1.5rem;
+	color: #151515;
+	text-align: justify;
+	margin: 0 auto;
 }
 
 
@@ -226,12 +186,12 @@ img {
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 2rem;
-	border: 1px solid #2f302a;
+	border: 1px solid #c8c9c3;
 }
 .about__image {
 	height: 40rem;
 	max-width: 40rem;
-	border: 1rem solid #171815;
+	border: 1rem solid #e5e3df;
 	size: cover;
 	position: center;
 	box-sizing: border-box;
