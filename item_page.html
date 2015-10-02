@@ -15,75 +15,120 @@
 
 
 	<div class="block header">
-
-		<div class= "header__logo">
+		<a href="index.html">
+			<div class= "header__logo">
 			The Museum of Everything
-		</div>
-
+			</div>
+		</a>
 	</div>
 
 
+<div class="block box--pages--large  clearfix">
 
-	<div class="item">
+	<div class="box--pages--large__text">Explore the Collection</div>
 
-		<div class="item__image item__image--004">
-			
-		</div>
+	<div class="button-group filters-button-group">
+		  <button class="button is-checked" data-filter="*">show all</button>
+		  <button class="button" data-filter=".flora">flora</button>
+		  <button class="button" data-filter=".fauna">fauna</button>
+		  <button class="button" data-filter=".ephemera">ephemera</button>
+		  <button class="button" data-filter=".indoors">indoors</button>
+		  <button class="button" data-filter=".outdoors">outdoors</button>
+		  <button class="button" data-filter=".art">art</button>
+	</div>
 
+	<div class="grid">
 
-		<div class="item__text"> 
+	  <div class="element-item fauna outdoors">
+	  	<img class="element-item__image" src="objects/004.jpg">
+	    <h3 class="title">TITLE: toad</h3>
+	    <p class="creator">CREATOR: god</p>
+	    <p class="department">DEPARTMENT: Amphibians, small</p>
+	    <p class="weight">200.59</p>
+	  </div>
 
-			<div class= "item__number">
-				ACCESSION NUMBER: 1979-91-553
-			</div>
+		<div class="element-item fauna indoors outdoors ephemera">
+	  	<img class="element-item__image" src="objects/001.jpg">
+	    <h3 class="title">TITLE: moth</h3>
+	    <p class="creator">CREATOR: god</p>
+	    <p class="department">DEPARTMENT: Lepedoptera</p>
+	    <p class="weight">200.59</p>
+	  </div>
 
-			<div class= "item__title">
-				TITLE: toad
-			</div>
+	  <div class="element-item ephemera indoors outdoors">
+	  	<img class="element-item__image" src="objects/005.jpg">
+	    <h3 class="title">TITLE: waterdroplets on glass on brick</h3>
+	    <p class="creator">CREATOR: god</p>
+	    <p class="department">DEPARTMENT: Ephemera</p>
+	    <p class="weight">200.59</p>
+	  </div>
 
-			<div class= "item__department">				
-				DEPARTMENT: "Amphibians, small"
-			</div>
+	  <div class="element-item fauna indoors ephemera">
+	  	<img class="element-item__image" src="objects/009.jpg">
+	    <h3 class="title">TITLE: sunlight in window with boy</h3>
+	    <p class="creator">CREATOR: god</p>
+	    <p class="department">DEPARTMENT: Ephemera</p>
+	    <p class="weight">200.59</p>
+	  </div>
 
-			<div class= "item__period_id">				
-				PERIOD ID: Art Deco
-			</div>
+		<div class="element-item indoors outdoors ephemera art">
+	  	<img class="element-item__image" src="objects/010.jpg">
+	    <h3 class="title">TITLE: house, soon to be toen down</h3>
+	    <p class="creator">CREATOR: man</p>
+	    <p class="department">DEPARTMENT: Architecture</p>
+	    <p class="weight">200.59</p>
+	  </div>
 
-			<div class= "item__year">			
-				YEAR CREATED: 1927
-			</div>
-
-			<div class= "item__year_acquired">	
-				YEAR ACQUIRED: 1972
-			</div>
-
-			<div class= "item__medium">		
-				MEDIUM: carbon
-			</div>
-			
-			<div class= "item__provenance">				
-				PROVENANCE: forrest
-			</div>
-
-			<div class= "item__creditline">				
-				Gift of Henry Clay Frick
-			</div>
-
-		</div>
-
+	  <div class="element-item fauna indoors art">
+	  	<img class="element-item__image" src="objects/011.jpg">
+	    <h3 class="title">TITLE: caterpillar in print</h3>
+	    <p class="creator">CREATOR: man</p>
+	    <p class="department">Lepedoptera, Works on Paper</p>
+	    <p class="weight">200.59</p>
+	  </div>
+		
 
 	</div>
 
+		
+
+
+</div>
+
+
+
+
+
+		<div class="block box box--visit
+		box--pages--small">
+			<a href="visit.html" 
+			class="box__text">
+				Visit the Museum
+			</a>
+		</div>
+
+
+		<div class="block box box--about
+		box--pages--small">
+			<a href="about.html" 
+			class="box__text">
+				About the Museum
+			</a>
+		</div>	
 
 
 	<div class="block footer">
-
 		<div class="footer__copyright">
 			Copyright? Probably not.
 		</div>
-
 	</div>
 
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/main.js"></script>
+	
 
  
 </body>

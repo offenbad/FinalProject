@@ -57,12 +57,13 @@ a {
 	text-align: right;
 }
 .box--pages--large {
-	padding: 10rem 1.5rem;
-	background-color: #151515;
+	padding: 5rem 0rem;
+	background-color: white;
 }
 .box--pages--large__text {
+	padding-left: 1rem;
 	font-size: 2.3rem;
-	color: #e5e3df;
+	color: #151515;
 	display: block;
 }
 
@@ -146,12 +147,56 @@ a {
 
 
 	
+/*ITEM PAGES ISOTOPE*/
+.button-group {
+	padding: 2rem 1.5rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+.button {
+	font-family: 'Goudy Bookletter 1911', serif;
+	border: 1px solid #c8c9c3;
+	border-radius: 2rem;
+	background-color: white;
+	padding: 1rem;
+	width: 14%;
+	box-sizing: border-box;
+	float: left;
+}
+.grid {
+	box-sizing: border-box;
+	width: 100%;
+}
+.element-item {
+	margin: 1px;
+	padding: 1.5rem;
+	border: 1px solid #c8c9c3;
+	display: inline-block; 
+	height: 32rem;
+    width: 33%;
+	box-sizing: border-box;
+	float: left;
+}
+.element-item__image {
+	height: 17rem;
+	width: 17rem;
+	border: .5rem solid #e5e3df;
+	margin: 0 auto;
+	size: cover;
+	position: center;
+	box-sizing: border-box;
+}
+
+
+
+
 
 /*ITEM PAGES*/
 
+
 .item {
 	max-width: 40rem;
-	margin: 0 auto;
+	margin: 2rem auto;
 	box-sizing: border-box;
 	padding: 2rem;
 	border: 1px solid #c8c9c3;
@@ -193,7 +238,7 @@ img {
 }
 .box--pages--about__text {
 	font-size: 2rem;
-	color: #d5d6d2;
+	color: #151515;
 	text-align: justify;
 	padding-top: 2rem;
 	max-width: 38rem;
