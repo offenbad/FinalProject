@@ -67,7 +67,7 @@ a {
 	background-color: white;
 }
 .box--pages--large__text {
-	padding-left: 1rem;
+	padding: 1rem;
 	font-size: 2.3rem;
 	color: #151515;
 	display: block;
@@ -90,7 +90,7 @@ a {
 .clearfix { display: block; }
 
 .button-group {
-	padding: 2rem 1.5rem;
+	padding: 2.5rem 1rem;
 	box-sizing: border-box;
 	width: 100%;
 }
@@ -108,7 +108,7 @@ a {
 	border-radius: 2rem;
 	border: 1px solid white;
 	height: 3.7rem;
-	width: 11%;
+	width: 5.5%;
 	float: left;
 }
 .color--peaty-tan {
@@ -123,6 +123,9 @@ a {
 .color--cool-stone {
 	background-color: #858471;
 }
+.color--sea-green {
+	background-color: #8fbc8f;
+}
 .color--plant-green {
 	background-color: #2f4f4f;
 }
@@ -135,8 +138,32 @@ a {
 .color--sonic-silver {
 	background-color: #757575;
 }
+.color--.color--sonic-silver {
+	background-color: #483d8b;
+} 
 .color--really-almost-black {
 	background-color: #151515;
+}
+.color--warm-faun {
+	background-color: #8a795d;
+}
+.color--good-brick {
+	background-color: #871d1a;
+}
+.color--fire-brick {
+	background-color: #b22222;
+}
+.color--raw-umber {
+	background-color: #714b23;
+}
+.color--saddle-brown {
+	background-color: #8b4513;
+}
+.color--warm-seagreen {
+	background-color: #c5e384;
+}
+.color--goldenrod {
+	background-color: #daa520;
 }
 
 .grid {
