@@ -206,6 +206,32 @@ img {
 }
 
 
+/*ITEM PAGES*/
+
+.box--pages--item {
+	max-width: 40rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 2rem;
+	border: 1px solid #c8c9c3;
+}
+.box--pages--item__image {
+	height: 40rem;
+	max-width: 40rem;
+	border: 1rem solid #e5e3df;
+	size: cover;
+	position: center;
+	box-sizing: border-box;
+}
+.box--pages--item__text {
+	font-size: 2rem;
+	color: #151515;
+	text-align: justify;
+	padding-top: 2rem;
+	max-width: 38rem;
+	margin: 0 auto;
+}
+
 
 /*ABOUT PAGE*/
 .box--pages--about {
@@ -215,7 +241,7 @@ img {
 	padding: 2rem;
 	border: 1px solid #c8c9c3;
 }
-.about__image {
+.box--pages--about__image {
 	height: 40rem;
 	max-width: 40rem;
 	border: 1rem solid #e5e3df;

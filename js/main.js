@@ -195,3 +195,9 @@ $('.filter-button-group').on( 'click', 'button', function() {
 // $(".item__provenance").append("<p>PROVENANCE: "+item004.provenance+"</p>");
 // $(".item__creditline").append("<p>"+item004.creditline+"</p>");
 // $(".item__colors").append("<p>COLOURS: "+item004.colors+"</p>");
+
+
+
+
+
+
