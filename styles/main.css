@@ -204,6 +204,13 @@ img {
 	text-align: justify;
 	margin: 0 auto;
 }
+.element-item__colors {
+	border-radius: 2rem;
+	border: 1px solid white;
+	height: 3.7rem;
+	width: 5.5%;
+	float: left;
+}
 
 
 /*ITEM PAGES*/
