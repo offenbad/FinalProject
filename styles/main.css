@@ -6,11 +6,12 @@ html {
 	max-width: 60rem;
 	margin: 0 auto;
 	box-sizing: border-box;
-	border: 1px solid black;
+	border: 1px solid #c8c9c3;
 }
 .header {
 	padding: 12rem 1rem 1rem 1rem;
 	background-color: white;
+	border: 1px solid black;
 }
 .header__logo {
 	font-size: 4rem;
