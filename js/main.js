@@ -394,9 +394,10 @@ for (var i =0; i<items.length; i++){
 	}
 };
 
-// for (var i=0; i<colors.length; i++) {
-// 	$(".element-item").addClass( colors[i] +" " );
-// 	};
+var colors = ["fire-brick", "goldenrod", "really-almost-black"];
+for (var i=0; i<colors.length; i++) {
+	$(".element-item").addClass( colors[i] +" " );
+	};
 
 
 
