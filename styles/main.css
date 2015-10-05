@@ -11,7 +11,7 @@ html {
 .header {
 	padding: 12rem 1rem 1rem 1rem;
 	background-color: white;
-	border: 1px solid black;
+	border: 1px solid #151515;
 }
 .header__logo {
 	font-size: 4rem;
@@ -139,8 +139,8 @@ a {
 .color--sonic-silver {
 	background-color: #757575;
 }
-.color--.color--sonic-silver {
-	background-color: #483d8b;
+.color--bluey-sonicsilver {
+	background-color: #918ab9;
 } 
 .color--really-almost-black {
 	background-color: #151515;
@@ -200,10 +200,15 @@ img {
 }
 .element-item__text {
 	padding-top: .5rem;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: #151515;
 	text-align: justify;
 	margin: 0 auto;
+}
+.element-item__text__title {
+	font-style: italic;
+	font-size: 2rem;
+	text-align: right;
 }
 .element-item__colors {
 	border-radius: 2rem;
@@ -214,7 +219,7 @@ img {
 }
 
 
-/*ITEM PAGES*/
+/*ITEM MODAL*/
 
 .box--pages--item {
 	max-width: 40rem;
@@ -235,7 +240,7 @@ img {
 	font-size: 2rem;
 	color: #151515;
 	text-align: justify;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	max-width: 38rem;
 	margin: 0 auto;
 }

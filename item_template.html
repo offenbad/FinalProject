@@ -23,42 +23,40 @@
 	</div>
 
 
-	<div class="block">
+	<div class="block box box--pages--large">	
 
-		<div class="box--pages--item">
+		<div class="box--pages--item"></div>
 
-			<div class="box--pages--item__image"></div>
-
-			<div class="box--pages--item__text">
-
-				<div class= "item__accession_number"></div>
-
-				<div class= "item__title"></div>
-
-				<div class= "item__creator"></div>
-
-				<div class= "item__department"></div>
-
-				<div class= "item__period"></div>
-
-				<div class= "item__medium"></div>
-
-				<div class= "item__year_created"></div>
-
-				<div class= "item__year_acquired"></div>
+			<script type="template" id="element-item-template--large">
 				
-				<div class= "item__provenance"></div>
+					<div class="box--pages--item__image"><img src='<%=image %>'></div>
 
-				<div class= "item__creditline"></div>
+						<div class= "box--pages--item__text">ACCESSION NUMBER: <%= accession_number %></div>
 
-				<div class= "item__colors"></div>
+						<div class= "box--pages--item__text">TITLE: <%= title %></div>
 
-			</div>
+						<div class= "box--pages--item__text">CREATOR: <%= creator %></div>
+
+						<div class= "box--pages--item__text">DEPARTMENT: <%= department %></div>
+
+						<div class= "box--pages--item__text">PERIOD: <%= period %></div>
+
+						<div class= "box--pages--item__text">MEDIUM: <%= medium %></div>
+
+						<div class= "box--pages--item__text">YEAR CREATED: <%= year_created%></div>
+
+						<div class= "box--pages--item__text">YEAR ACQUIRED: <%= year_acquired %></div>
+						
+						<div class= "box--pages--item__text">PROVENANCE: <%= provenance %></div>
+
+						<div class= "box--pages--item__text"><%= creditline %></div>
+
+
+			</script>	
+
+
 
 		</div>
-
-	</div>
-
 
 
 		<div class="block box box--collection 
@@ -95,6 +93,8 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/isotope.js"></script>
 	<script src="js/main.js"></script>
  
 </body>

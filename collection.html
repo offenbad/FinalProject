@@ -23,7 +23,7 @@
 
 
 
-	<div class="block box--pages--large clearfix js-block">
+	<div class="block box--pages--large clearfix js-item-modal">
 
 
 		<div class="box--pages--large__text">
@@ -53,41 +53,50 @@
 
 		<div class="button-group filter-button-group">
 
-			<button class="color-button color--light-faun"></button>
-			<button class="color-button color--sonic-silver"></button>
-			<button class="color-button color--bluey-sonicsilver"></button>
-			<button class="color-button color--cool-stone"></button>
-			<button class="color-button color--warm-stone"></button>
-			<button class="color-button color--warm-faun"></button>
-			<button class="color-button color--peaty-tan"></button>
-			<button class="color-button color--warm-seagreen"></button>
-			<button class="color-button color--sea-green"></button>
-			<button class="color-button color--plant-green"></button>
-			<button class="color-button color--outer-space"></button>
-			<button class="color-button color--almost-black"></button>
-			<button class="color-button color--really-almost-black"></button>
-			<button class="color-button color--good-brick"></button>
-			<button class="color-button color--fire-brick"></button>
-			<button class="color-button color--goldenrod"></button>
-			<button class="color-button color--raw-umber"></button>
-			<button class="color-button color--sepia"></button>
+			<button class="filter-button color-button color--light-faun" data-filter=".light-faun"></button>
+			<button class="filter-button color-button color--sonic-silver" data-filter=".sonic-silver"></button>
+			<button class="filter-button color-button color--bluey-sonicsilver" data-filter=".bluey-sonicsilver"></button>
+			<button class="filter-button color-button color--cool-stone" data-filter=".cool-stone"></button>
+			<button class="filter-button color-button color--warm-stone" data-filter=".warm-stone"></button>
+			<button class="filter-button color-button color--warm-faun" data-filter=".warm-faun"></button>
+			<button class="filter-button color-button color--peaty-tan" data-filter=".peaty-tan"></button>
+			<button class="filter-button color-button color--warm-seagreen" data-filter=".warm-seagreen"></button>
+			<button class="filter-button color-button color--sea-green" data-filter=".sea-green"></button>
+			<button class="filter-button color-button color--plant-green" data-filter=".plant-green"></button>
+			<button class="filter-button color-button color--outer-space" data-filter=".outer-space"></button>
+			<button class="filter-button color-button color--almost-black" data-filter=".almost-black"></button>
+			<button class="filter-button color-button color--really-almost-black" data-filter=".really-almost-black"></button>
+			<button class="filter-button color-button color--good-brick" data-filter=".good-brick"></button>
+			<button class="filter-button color-button color--fire-brick" data-filter=".fire-brick"></button>
+			<button class="filter-button color-button color--goldenrod" data-filter=".goldenrod"></button>
+			<button class="filter-button color-button color--raw-umber" data-filter=".raw-umber"></button>
+			<button class="filter-button color-button color--sepia" data-filter=".sepia"></button>
 			
 			
 		</div>
 
-
+		
 		<div class="grid">
+		</div>
 
-			<div class="element-item">
-			<a href="item_template.html">
-				<div class="element-item__image"></div>
-				<div class="element-item__text"></div>
-				<div class="element-item__colors"></div>
-			</a>
-			</div>
+	
+
+			<script type="template" id="element-item-template--small">
+				<div class="element-item <%= provenance %> <%= medium %>">
+				<div class="js-item-modal-click">
+					<div class="element-item__image"><img src='<%=image %>'></div>
+					<div class="element-item__text element-item__text__title"><%= title %></div>
+					<div class="element-item__text">CREATOR: <%= creator %></div>
+					<div class="element-item__text">DEPT: <%= department %></div>
+					<div class="element-item__text">PERIOD: <%= period %></div>
+					<div class="element-item__text"><%= creditline %></div>
+					<div class="element-item__text"><%= accession_number %></div>
+				</div>
+				</div>
+			</script>
 
 
-		  	<div class=" element-item fauna outdoors">
+		  <!-- 	<div class=" element-item fauna outdoors">
 		  	<a href="item_template.html">
 			  	<img class="element-item__image" src="objects/004.jpg">
 			    <div class="element-item__text title">TITLE: toad</div>
@@ -135,10 +144,9 @@
 			    <p class="creator">CREATOR: man</p>
 			    <p class="department">Lepedoptera, Works on Paper</p>
 			    <p class="weight">200.59</p>
-			  </div>
+			  </div> -->
 			
 
-		</div>
 
 			
 	</div>

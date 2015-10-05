@@ -17,6 +17,45 @@ $grid.isotope({ filter: '.outdoors' });
 
 $grid.isotope({ filter: '.art' });
 
+$grid.isotope({ filter: '.light-faun' });
+
+$grid.isotope({ filter: '.sonic-silver' });
+
+$grid.isotope({ filter: '.bluey-sonicsilver' });
+
+$grid.isotope({ filter: '.cool-stone' });
+
+$grid.isotope({ filter: '.warm-stone' });
+
+$grid.isotope({ filter: '.warm-faun' });
+
+$grid.isotope({ filter: '.peaty-tan' });
+
+$grid.isotope({ filter: '.warm-seagreen' });
+
+$grid.isotope({ filter: '.sea-green' });
+
+$grid.isotope({ filter: '.plant-green' });
+
+$grid.isotope({ filter: '.outer-space' });
+
+$grid.isotope({ filter: '.almost-black' });
+
+$grid.isotope({ filter: '.really-almost-black' });
+
+$grid.isotope({ filter: '.good-brick' });
+
+$grid.isotope({ filter: '.fire-brick' });
+
+$grid.isotope({ filter: '.goldenrod' });
+
+$grid.isotope({ filter: '.raw-umber' });
+
+$grid.isotope({ filter: '.sepia' });
+
+
+
+
 // show all items
 $grid.isotope({ filter: '*' });
 
@@ -28,17 +67,46 @@ $('.filter-button-group').on( 'click', 'button', function() {
 
 
 
-// /////////////COLLECTION PAGE JS//////////////
 
-// $( ".js-collection__nav--color" ).on('click',function() {
-// 	$( ".collection--first" ).remove();
-// 	$( ".collection--second--color" ).addClass( "collection--second--showing" );
-//   });
 
-// $( ".js-collection__nav--medium" ).on('click',function() {
-// 	$( ".collection--first" ).remove();
-// 	$( ".collection--second--medium" ).addClass( "collection--second--showing" );
-// });
+
+var tempItems = {
+			accession_number: "1999-91-001",
+			title: "moth",
+			creator: "god",
+			department: "Lepeodoptera",
+			period: "Art Nouveau",
+			medium: "fauna",
+			year_created: 1999,
+			year_acquired: 1999,
+			provenance: "outdoors",
+			creditline: "Gift of Henry Clay Frick",
+			colors: ["light-faun", "warm-faun", "cool-stone", "warm-stone", "almost-black"],
+			image: "objects/001.jpg"
+}
+
+if ( $('#element-item-template--small').length !== 0 ) {
+	var compiled = _.template($('#element-item-template--small').html());
+	var output = compiled( tempItems );
+
+	$(".grid").append( output );
+
+	var colors = [];
+	for (var i = 0; i < colors.length; i++ ){
+	    $(".element-item").addClass(colors[i] +" ");
+	}	
+}
+
+
+
+if ( $('#element-item-template--large').length !== 0 ) {
+
+	var compiledBig = _.template($('#element-item-template--large').html());
+	var outputBig = compiledBig( tempItems );
+
+	$(".box--pages--item").append( outputBig );	
+}
+
 
 
 
@@ -424,18 +492,18 @@ var items = {
 
 	};
 
-$(".item__image").append("<img src="+item004.image+">");
-$(".item__number").append("<p>ACCESSION NUMBER: "+item004.number+"</p>");
-$(".item__title").append("<p>TITLE: "+item004.title+"</p>");
-$(".item__creator").append("<p>CREATOR:"+item004.creator+"</p>");
-$(".item__department").append("<p>DEPARTMENT: "+item004.department+"</p>");
-$(".item__period").append("<p>PERIOD: "+item004.period+"</p>");
-$(".item__year_created").append("<p>YEAR CREATED: "+item004.year_created+"</p>");
-$(".item__year_acquired").append("<p>YEAR ACQUIRED: "+item004.year_acquired+"</p>");
-$(".item__medium").append("<p>MEDIUM: "+item004.medium+"</p>");
-$(".item__provenance").append("<p>PROVENANCE: "+item004.provenance+"</p>");
-$(".item__creditline").append("<p>"+item004.creditline+"</p>");
-$(".item__colors").append("<p>COLOURS: "+item004.colors+"</p>");
+// $(".item__image").append("<img src="+item004.image+">");
+// $(".item__number").append("<p>ACCESSION NUMBER: "+item004.number+"</p>");
+// $(".item__title").append("<p>TITLE: "+item004.title+"</p>");
+// $(".item__creator").append("<p>CREATOR:"+item004.creator+"</p>");
+// $(".item__department").append("<p>DEPARTMENT: "+item004.department+"</p>");
+// $(".item__period").append("<p>PERIOD: "+item004.period+"</p>");
+// $(".item__year_created").append("<p>YEAR CREATED: "+item004.year_created+"</p>");
+// $(".item__year_acquired").append("<p>YEAR ACQUIRED: "+item004.year_acquired+"</p>");
+// $(".item__medium").append("<p>MEDIUM: "+item004.medium+"</p>");
+// $(".item__provenance").append("<p>PROVENANCE: "+item004.provenance+"</p>");
+// $(".item__creditline").append("<p>"+item004.creditline+"</p>");
+// $(".item__colors").append("<p>COLOURS: "+item004.colors+"</p>");
 
 
 
