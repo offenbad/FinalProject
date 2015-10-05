@@ -177,7 +177,7 @@ a {
 	padding: 1.5rem;
 	border: 1px solid #c8c9c3;
 	display: inline-block; 
-	height: 32rem;
+	height: 34rem;
     width: 33%;
 	box-sizing: border-box;
 	float: left;
@@ -195,20 +195,16 @@ img {
 	width: 100%;
 	height: 100%;
 }
-.element-item__text--title {
-	padding-top: 2rem;
-}
 .element-item__text {
 	padding-top: .5rem;
 	font-size: 1.2rem;
 	color: #151515;
-	text-align: justify;
-	margin: 0 auto;
 }
 .element-item__text__title {
 	font-style: italic;
 	font-size: 2rem;
 	text-align: right;
+	padding: 1rem 0rem;
 }
 .element-item__colors {
 	border-radius: 2rem;
@@ -219,7 +215,7 @@ img {
 }
 
 
-/*ITEM MODAL*/
+/*ITEM */
 
 .box--pages--item {
 	max-width: 40rem;
@@ -239,7 +235,6 @@ img {
 .box--pages--item__text {
 	font-size: 2rem;
 	color: #151515;
-	text-align: justify;
 	padding-top: 1rem;
 	max-width: 38rem;
 	margin: 0 auto;
