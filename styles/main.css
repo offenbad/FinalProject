@@ -33,13 +33,16 @@ a {
 }
 
 .box--visit {
-	background-image: url("../objects/001.jpg");
+	background-image: url("../objects/009.jpg");
+	background-position: top-right;
 }
 .box--collection {
-	background-image: url("../objects/002.jpg");
+	background-image: url("../objects/011.jpg");
+	background-position: bottom-right;
 }
 .box--about {
-	background-image: url("../objects/003.jpg");
+	background-image: url("../objects/015.jpg");
+	background-position: bottom;
 }
 
 .footer {
@@ -177,7 +180,7 @@ a {
 	padding: 1.5rem;
 	border: 1px solid #c8c9c3;
 	display: inline-block; 
-	height: 34rem;
+	height: 36rem;
     width: 33%;
 	box-sizing: border-box;
 	float: left;

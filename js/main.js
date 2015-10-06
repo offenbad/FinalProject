@@ -84,7 +84,7 @@ var items = [
 			accession_number: "1972-87-006",
 			title: "sunset in rearview mirror",
 		 	creator: "god, man",
-			department: "Ephemera",
+			department: "Ephemera, light event",
 			period: "Contemporary",
 		 	medium: "ephemera",
 			year_created: null,
@@ -129,7 +129,7 @@ var items = [
 			accession_number: "2015-00-009",
 			title: "boy in light in window",
 		 	creator: "man, god",
-			department: "Ephemera",
+			department: "Ephemera, light event",
 			period: "Contemporary",
 		 	medium: "ephemera",
 			year_created: 2014,
@@ -202,7 +202,7 @@ var items = [
 
 		{
 			accession_number: "2015-01-014",
-			title: "house; Richmond, VA",
+			title: "house",
 		 	creator: "man",
 			department: "Architecture, Edward Hopper lighting",
 			period: "unknown",
@@ -217,7 +217,7 @@ var items = [
 
 		{
 			accession_number: "2015-01-015",
-			title: "sailboat; Annapolis, MD",
+			title: "sailboat",
 		 	creator: "man",
 			department: "Boats, envy",
 			period: "unknown",
@@ -232,7 +232,7 @@ var items = [
 
 		{
 			accession_number: "2015-01-016",
-			title: "dead baby bird; Annapolis, MD",
+			title: "dead baby bird",
 		 	creator: "god",
 			department: "Birds, ephemera",
 			period: "Cretaceous",
@@ -255,7 +255,7 @@ var items = [
 			year_created: 2015,
 			year_acquired: 2015,
 			provenance: "outdoors",
-			creditline: "Temporary loan from Victoria and Albert Museum",
+			creditline: "On loan from Victoria and Albert Museum",
 			colors: ["light-faun", "sonic-silver", "bluey-sonic-silver", "outer-space", "almost-black"],
 			image: "objects/017.jpg"
 		},
@@ -270,7 +270,7 @@ var items = [
 			year_created: "unknown",
 			year_acquired: 2015,
 			provenance: "outdoors",
-			creditline: "Temporary loan from Victoria and Albert Museum",
+			creditline: "On loan from Victoria and Albert Museum",
 			colors: ["goldenrod", "good-brick", "fire-brick", "raw-umber", "sepia"],
 			image: "objects/018.jpg"
 		},
@@ -380,6 +380,126 @@ var items = [
 			image: "objects/025.jpg"
 		},
 
+		{
+			accession_number: "2015-00-026",
+			title: "sunrise from automobile",
+			creator: "god, man",
+			department: "Ephemera, light events",
+			period: "Contemporary",
+			medium: "ephemera",
+			year_created: 2015,
+			year_acquired: 2015,
+			provenance: "outdoors",
+			creditline: "Gift of Devon Danz",
+			colors: ["warm-faun", "sonic-silver", "bluey-sonicsilver"],
+			image: "objects/026.jpg"
+		},
+
+		{
+			accession_number: "2015-00-027",
+			title: "praying mantis",
+			creator: "god",
+			department: "Insects, carnivorous",
+			period: "Art Nouveau",
+			medium: "fauna",
+			year_created: 1995,
+			year_acquired: 2015,
+			provenance: "outdoors",
+			creditline: "Gift of Devon Danz",
+			colors: ["bluey-sonicsilver", "peaty-tan", "warm-seagreen", "sea-green", "warm-stone"],
+			image: "objects/027.jpg"
+		},
+
+		{
+			accession_number: "2015-00-028",
+			title: "cat in window",
+			creator: "god, man",
+			department: "Ephemera, light events",
+			period: "Art Nouveau",
+			medium: "fauna",
+			year_created: 2015,
+			year_acquired: 2015,
+			provenance: "ephemera",
+			creditline: "Gift of Devon Danz",
+			colors: ["really-almost-black"],
+			image: "objects/028.jpg"
+		},
+
+		{
+			accession_number: "1938-00-029",
+			title: "cocktail shaker",
+			creator: "man",
+			department: "Functional objects",
+			period: "Art Deco",
+			medium: "art",
+			year_created: 1927,
+			year_acquired: 1938,
+			provenance: "indoors",
+			creditline: "Gift of Devon Danz",
+			colors: null,
+			image: "objects/029.jpg"
+		},
+
+		{
+			accession_number: "1933-00-030",
+			title: "house",
+			creator: "man",
+			department: "Architecture",
+			period: "Victorian",
+			medium: "art",
+			year_created: "unknown",
+			year_acquired: 1933,
+			provenance: "outdoors",
+			creditline: null,
+			colors: ["light-faun", "fire-brick", "raw-umber"],
+			image: "objects/030.jpg"
+		},
+
+		{
+			accession_number: "1978-00-031",
+			title: "tortoise caryatid",
+			creator: "man",
+			department: "Fauna, architectural",
+			period: "unknown",
+			medium: "art",
+			year_created: "unknown",
+			year_acquired: 1978,
+			provenance: "indoors",
+			creditline: "On loan from Boston Public Library",
+			colors: ["warm-stone"],
+			image: "objects/031.jpg"
+		},
+
+		{
+			accession_number: "1978-00-032",
+			title: "dolphins on wallpaper",
+			creator: "man",
+			department: "Fauna, decorative",
+			period: "unknown",
+			medium: "art",
+			year_created: "unknown",
+			year_acquired: 1978,
+			provenance: "indoors",
+			creditline: "On loan from Cooper Hewitt",
+			colors: ["light-faun", "cool-stone", "goldenrod", "really-almost-black"],
+			image: "objects/032.jpg"
+		},
+
+		{
+			accession_number: "1990-00-033",
+			title: "horse, carriage in motion",
+			creator: "god, man",
+			department: "Fauna, functional",
+			period: "Reformation",
+			medium: "fauna",
+			year_created: 1672,
+			year_acquired: 1990,
+			provenance: "outdoors",
+			creditline: null,
+			colors: ["outer-space", "almost-black", "really-almost-black"],
+			image: "objects/033.jpg"
+		},
+
 	];
 
 if ( $('#element-item-template--small').length !== 0 ) {
@@ -394,21 +514,23 @@ for (var i =0; i<items.length; i++){
 	}
 };
 
-var colors = ["fire-brick", "goldenrod", "really-almost-black"];
-for (var i=0; i<colors.length; i++) {
-	$(".element-item").addClass( colors[i] +" " );
-	};
+
+// function colorLoop() {  
+// 	for ( var i=0; i<colors.length; i++ ) {
+// 		var output = ( colors[ i ] + " " );
+// 	} 
+// };
 
 
 
 
-if ( $('#element-item-template--large').length !== 0 ) {
+// if ( $('#element-item-template--large').length !== 0 ) {
 
-	var compiledBig = _.template($('#element-item-template--large').html());
-	var outputBig = compiledBig( tempItems );
+// 	var compiledBig = _.template($('#element-item-template--large').html());
+// 	var outputBig = compiledBig( tempItems );
 
-	$(".box--pages--item").append( outputBig );	
-}
+// 	$(".box--pages--item").append( outputBig );	
+// }
 
 
 
