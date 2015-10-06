@@ -500,6 +500,96 @@ var items = [
 			image: "objects/033.jpg"
 		},
 
+		{
+			accession_number: "1900-00-034",
+			title: "light through leaves",
+			creator: "god",
+			department: "Ephemera, light events",
+			period: "Modern",
+			medium: "flora",
+			year_created: 1890,
+			year_acquired: 1900,
+			provenance: "outdoors",
+			creditline: null,
+			colors: ["plant-green", "warm-seagreen"],
+			image: "objects/034.jpg"
+		},
+
+		{
+			accession_number: "2015-06-035",
+			title: "clouds in, out of rearview mirror",
+			creator: "god, man",
+			department: "Ephemera, light events",
+			period: "Contemporary",
+			medium: "ephemera",
+			year_created: 2015,
+			year_acquired: 2015,
+			provenance: "outdoors",
+			creditline: null,
+			colors: null,
+			image: "objects/035.jpg"
+		},
+
+		{
+			accession_number: "2015-06-036",
+			title: "Great Aunt Dee in Japan",
+			creator: "man",
+			department: "Photography, nostalgia",
+			period: "Modern",
+		 	medium: "art",
+			year_created: "unknown",
+			year_acquired: 2015,
+			provenance: "indoors",
+			creditline: "Memory on loan from Devon Danz",
+			colors: ["light-faun", "warm-faun", "sea-green", "sepia"],
+			image: "objects/036.jpg"
+		},
+
+		{
+			accession_number: "1967-00-037",
+			title: "Bacchus",
+			creator: "man",
+			department: "Sculpture, Roman",
+			period: "unknown",
+			medium: "art",
+			year_created: "unknown",
+			year_acquired: 1967,
+			provenance: "indoors",
+			creditline: "On loan from Virginia Museum of Fine Arts",
+			colors: ["warm-faun", "warm-stone"],
+			image: "objects/037.jpg"
+		},
+
+		{
+			accession_number: "1931-00-038",
+			title: "Atlas",
+			creator: "John Singer Sargent",
+			department: "Painting, mural",
+			period: "Beaux Arts",
+			medium: "art",
+			year_created: 1922,
+			year_acquired: 1931,
+			provenance: "indoors",
+			creditline: "Stolen from Boston Museum of Fine Arts",
+			colors: [ "light-faun", "sonic-silver", "bluey-sonicsilver", "cool-stone", "warm-faun", "warm-stone", "peaty-tan", "outer-space", "almost-black" ],
+			image: "objects/038.jpg"
+		},
+
+		{
+			accession_number: "2015-00-039",
+			title: "unknown",
+			creator: "John Singer Sargent",
+			department: "Drawings & prints",
+			period: "Beaux Arts",
+			medium: "art",
+			year_created: "unknown",
+			year_acquired: 2015,
+			provenance: "indoors",
+			creditline: "Stolen from Metropolitan Museum of Art",
+			colors: [ "light-faun", "cool-stone", "warm-faun", "warm-stone", "really-almost-black" ],
+			image: "objects/039.jpg"
+		},
+
 	];
 
 if ( $('#element-item-template--small').length !== 0 ) {
@@ -520,6 +610,12 @@ for (var i =0; i<items.length; i++){
 // 		var output = ( colors[ i ] + " " );
 // 	} 
 // };
+
+// var colors = ["light-faun", "warm-faun", "cool-stone", "warm-stone", "almost-black"];
+
+// for (var i = 0; i < colors.length; i++ ){
+//     $(".element-item").append(colors[i] +" ");
+// }
 
 
 
