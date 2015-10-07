@@ -597,21 +597,28 @@ for (var i =0; i<items.length; i++){
 		$(".grid").append( output );
 
 	}
-	
 
 };
 
 
+var compiledBig = _.template($('#element-item-template--large').html());
+$( ".js-element-item" ).on ("click", function() {
+
+	
+	var outputBig = compiledBig( items[ $( this ).index() ] );
+
+	$(".modal").html( outputBig );	
+	console.log( outputBig )
+	$(".modal").addClass("modal--visible");
+});
+
+$(".modal").on ("click", function() {
+	$(".modal").removeClass("modal--visible");
+});
+
+ 
 
 
-
-// if ( $('#element-item-template--large').length !== 0 ) {
-
-// 	var compiledBig = _.template($('#element-item-template--large').html());
-// 	var outputBig = compiledBig( tempItems );
-
-// 	$(".box--pages--item").append( outputBig );	
-// }
 
 
 
