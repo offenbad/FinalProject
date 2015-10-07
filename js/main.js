@@ -206,7 +206,7 @@ var items = [
 			year_acquired: 2015,
 			provenance: "outdoors",
 			creditline: null,
-			colors: ["light-faun", "sea-green", "really-almost-black"],
+			colors: ["light-faun", "sea-green"],
 			image: "objects/014.jpg"
 		},
 
@@ -311,7 +311,7 @@ var items = [
 			year_acquired: 1966,
 			provenance: "indoors",
 			creditline: "On loan from National Gallery",
-			colors: ["light-faun", "sonic-silver", "bluey-sonicsilver", "cool-stone", "warm-stone", "warm-faun", "peaty-tan", "warm-seagreen", "sea-green", "plant-green", "outer-space", "almost-black", "really-almost-black", "good-brick", "fire-brick", "goldenrod", "raw-umber", "sepia"],
+			colors: ["sonic-silver", "bluey-sonicsilver", "cool-stone", "warm-stone", "warm-faun", "peaty-tan", "warm-seagreen", "sea-green", "plant-green", "outer-space", "almost-black", "really-almost-black", "good-brick", "fire-brick", "goldenrod", "raw-umber", "sepia"],
 			image: "objects/021.jpg"
 		},
 
@@ -356,7 +356,7 @@ var items = [
 			year_acquired: 1915,
 			provenance: "outdoors",
 			creditline: "Memory on loan from Devon Danz",
-			colors: ["peaty-tan", "goldenrod", "really-almost-black"],
+			colors: ["peaty-tan", "goldenrod"],
 			image: "objects/024.jpg"
 		},
 
@@ -446,7 +446,7 @@ var items = [
 			year_acquired: 1933,
 			provenance: "outdoors",
 			creditline: null,
-			colors: ["light-faun", "fire-brick", "raw-umber"],
+			colors: ["good-brick", "fire-brick", "raw-umber"],
 			image: "objects/030.jpg"
 		},
 

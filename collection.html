@@ -95,21 +95,22 @@
 
 			<!-- MODAL -->
 			<div class="modal"> 
-			<div class="box--pages--item"></div>
 
-			<script type="template" id="element-item-template--large">
+				<script type="template" id="element-item-template--large">
 				
-					<div class="box--pages--item__image"><img src='<%=image %>'></div>
-						<div class= "box--pages--item__text">ACCESSION NUMBER: <%= accession_number %></div>
-						<div class= "box--pages--item__text">TITLE: <%= title %></div>
-						<div class= "box--pages--item__text">CREATOR: <%= creator %></div>
-						<div class= "box--pages--item__text">DEPARTMENT: <%= department %></div>
-						<div class= "box--pages--item__text">PERIOD: <%= period %></div>
-						<div class= "box--pages--item__text">MEDIUM: <%= medium %></div>
-						<div class= "box--pages--item__text">YEAR CREATED: <%= year_created%></div>
-						<div class= "box--pages--item__text">YEAR ACQUIRED: <%= year_acquired %></div>
-						<div class= "box--pages--item__text">PROVENANCE: <%= provenance %></div>
-						<div class= "box--pages--item__text"><%= creditline %></div>
+					<div class="box--item">
+						<div class="box--item__image"><img src='<%=image %>'></div>
+						<div class= "box--item__text box--item__text__title"><%= title %></div>
+						<div class= "box--item__text">ACCESSION NUMBER: <%= accession_number %></div>
+						<div class= "box--item__text">CREATOR: <%= creator %></div>
+						<div class= "box--item__text">DEPARTMENT: <%= department %></div>
+						<div class= "box--item__text">PERIOD: <%= period %></div>
+						<div class= "box--item__text">MEDIUM: <%= medium %></div>
+						<div class= "box--item__text">YEAR CREATED: <%= year_created%></div>
+						<div class= "box--item__text">YEAR ACQUIRED: <%= year_acquired %></div>
+						<div class= "box--item__text">PROVENANCE: <%= provenance %></div>
+						<div class= "box--item__text box--item__text__italic"><%= creditline %></div>
+					</div>
 
 			</script>	
 			</div> <!-- /MODAL -->
