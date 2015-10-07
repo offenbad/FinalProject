@@ -1,9 +1,4 @@
 
-
-
-
-
-
 var items = [
 		 {
 			accession_number: "1999-91-001",
@@ -76,7 +71,7 @@ var items = [
 			year_acquired: "2010",
 			provenance: "indoors",
 			creditline: "Gift of the artist",
-			colors: null,
+			colors: [],
 			image: "objects/005.jpg"
 		},
 
@@ -91,7 +86,7 @@ var items = [
 			year_acquired: "1972",
 			provenance: "outdoors",
 			creditline: "Private donor",
-			colors: null,
+			colors: [],
 			image: "objects/006.jpg"
 		},
 
@@ -136,7 +131,7 @@ var items = [
 			year_acquired: 2015,
 			provenance: "indoors",
 			creditline: "Gift of the artist",
-			colors: null,
+			colors: [],
 			image: "objects/009.jpg"
 		},
 
@@ -436,7 +431,7 @@ var items = [
 			year_acquired: 1938,
 			provenance: "indoors",
 			creditline: "Gift of Devon Danz",
-			colors: null,
+			colors: [],
 			image: "objects/029.jpg"
 		},
 
@@ -526,7 +521,7 @@ var items = [
 			year_acquired: 2015,
 			provenance: "outdoors",
 			creditline: null,
-			colors: null,
+			colors: [],
 			image: "objects/035.jpg"
 		},
 
@@ -599,23 +594,13 @@ if ( $('#element-item-template--small').length !== 0 ) {
 for (var i =0; i<items.length; i++){
 	if ( $('#element-item-template--small').length !== 0 ) {
 		var output = compiled( items[ i ] );
-
 		$(".grid").append( output );
+
 	}
+	
+
 };
 
-
-// function colorLoop() {  
-// 	for ( var i=0; i<colors.length; i++ ) {
-// 		var output = ( colors[ i ] + " " );
-// 	} 
-// };
-
-// var colors = ["light-faun", "warm-faun", "cool-stone", "warm-stone", "almost-black"];
-
-// for (var i = 0; i < colors.length; i++ ){
-//     $(".element-item").append(colors[i] +" ");
-// }
 
 
 
@@ -695,6 +680,7 @@ $('.filter-button-group').on( 'click', 'button', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
 });
+
 
 
 
