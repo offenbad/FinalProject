@@ -186,8 +186,9 @@ a {
 	float: left;
 }
 .element-item__image {
-	height: 17rem;
-	width: 17rem;
+	aspect-ratio: square;
+	max-height: 17rem;
+	max-width: 17rem;
 	border: .5rem solid #e5e3df;
 	margin: 0 auto;
 	size: cover;
@@ -245,7 +246,8 @@ img {
 }
 .box--item__image {
 	margin: 0 auto;
-	height: 40rem;
+	aspect-ratio: square;
+	max-height: 40rem;
 	max-width: 40rem;
 	border: 1rem solid #e5e3df;
 	size: cover;
@@ -271,8 +273,36 @@ img {
 }
 
 
+@media (max-width: 500px) {
+	.box__text {
+		font-size: 2.3rem;
+	}
+	.box--pages--large__text {
+		font-size: 2rem;
+	}
+	.box--item__text {
+		font-size: 1.7rem;
+	}
+	.box--item__text__title {
+		font-size: 3rem;
+	}
+	.element-item {
+		width: 49%;
+	}
+	.element-item__text {
+		font-size: 1.2rem;
+	}
+	.element-item__text__title {
+		font-size: 1.7rem;
+	}
+	.filter-button {
+		width: 24%;
+	}
+	.color-button {
+		width: 10%;
+	}
 
-
+}
 
 
 
