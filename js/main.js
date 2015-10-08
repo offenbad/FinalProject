@@ -12,7 +12,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: null,
 			colors: ["light-faun", "warm-faun", "cool-stone", "warm-stone"],
-			image: base + "objects/001.jpg"
+			image: base + "objects/001.JPG"
 		},
 
 		 {
@@ -27,7 +27,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "Gift of Henry Clay Frick",
 			colors: ["sea-green", "bluey-sonicsilver"],
-			image: base + "objects/002.jpg"
+			image: base + "objects/002.JPG"
 		},
 
 		{
@@ -42,7 +42,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: null,
 			colors: ["plant-green"],
-			image: base + "objects/003.jpg"
+			image: base + "objects/003.JPG"
 		},
 
 		{
@@ -57,7 +57,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "Gift of Henry Clay Frick",
 			colors: ["warm-faun", "warm-stone", "goldenrod"],
-			image: base + "objects/004.jpg"
+			image: base + "objects/004.JPG"
 		},
 
 		{
@@ -72,7 +72,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "Gift of the artist",
 			colors: [],
-			image: base + "objects/005.jpg"
+			image: base + "objects/005.JPG"
 		},
 
 		{
@@ -87,7 +87,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: null,
 			colors: [],
-			image: base + "objects/006.jpg"
+			image: base + "objects/006.JPG"
 		},
 
 		{
@@ -102,7 +102,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "On loan from K. F. L. Offenbacher",
 			colors: ["almost-black", "sepia", "really-almost-black"],
-			image: base + "objects/007.jpg"
+			image: base + "objects/007.JPG"
 		},
 
 		{
@@ -117,7 +117,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "On loan from K. F. L. Offenbacher",
 			colors: ["raw-umber", "sepia", "really-almost-black"],
-			image: base + "objects/008.jpg"
+			image: base + "objects/008.JPG"
 		},
 
 		{
@@ -132,7 +132,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "Gift of the artist",
 			colors: [],
-			image: base + "objects/009.jpg"
+			image: base + "objects/009.JPG"
 		},
 
 		{
@@ -147,7 +147,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: null,
 			colors: ["warm-stone", "goldenrod"],
-			image: base + "objects/010.jpg"
+			image: base + "objects/010.JPG"
 		},
 
 		{
@@ -162,7 +162,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "On loan from Cooper Hewitt",
 			colors: ["light-faun", "realy-almost-black"],
-			image: base + "objects/011.jpg"
+			image: base + "objects/011.JPG"
 		},
 
 		{
@@ -177,7 +177,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "On loan from the artist",
 			colors: ["light-faun", "sonic-silver", "bluey-sonic-silver", "realy-almost-black", "good-brick"],
-			image: base + "objects/012.jpg"
+			image: base + "objects/012.JPG"
 		},
 
 		{
@@ -192,7 +192,7 @@ var items = [
 			provenance: "indoors",
 			creditline: null,
 			colors: ["light-faun", "warm-faun", "raw-umber", "sepia"],
-			image: base + "objects/013.jpg"
+			image: base + "objects/013.JPG"
 		},
 
 		{
@@ -207,7 +207,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: null,
 			colors: ["light-faun", "sea-green"],
-			image: base + "objects/014.jpg"
+			image: base + "objects/014.JPG"
 		},
 
 		{
@@ -222,7 +222,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "Memory on loan from Devon Danz",
 			colors: ["goldenrod", "warm-seagreen"],
-			image: base + "objects/015.jpg"
+			image: base + "objects/015.JPG"
 		},
 
 		{
@@ -237,7 +237,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "Memory on loan from Devon Danz",
 			colors: ["warm-stone", "goldenrod", "raw-umber", "sepia"],
-			image: base + "objects/016.jpg"
+			image: base + "objects/016.JPG"
 		},
 
 		{
@@ -252,7 +252,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "On loan from Victoria and Albert Museum",
 			colors: ["light-faun", "sonic-silver", "bluey-sonic-silver", "outer-space", "almost-black"],
-			image: base + "objects/017.jpg"
+			image: base + "objects/017.JPG"
 		},
 
 		{
@@ -267,7 +267,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "On loan from Victoria and Albert Museum",
 			colors: ["goldenrod", "good-brick", "fire-brick", "raw-umber", "sepia"],
-			image: base + "objects/018.jpg"
+			image: base + "objects/018.JPG"
 		},
 
 		{
@@ -282,7 +282,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "Temporary loan from Devon Danz",
 			colors: ["sea-green"],
-			image: base + "objects/019.jpg"
+			image: base + "objects/019.JPG"
 		},
 
 		{
@@ -297,7 +297,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "Private donor",
 			colors: ["warm-seagreen", "plant-green", "sepia"],
-			image: base + "objects/020.jpg"
+			image: base + "objects/020.JPG"
 		},
 
 		{
@@ -312,7 +312,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "On loan from National Gallery",
 			colors: ["sonic-silver", "bluey-sonicsilver", "cool-stone", "warm-stone", "warm-faun", "sea-green", "outer-space", "almost-black", "really-almost-black", "good-brick", "fire-brick", "goldenrod", "raw-umber", "sepia"],
-			image: base + "objects/021.jpg"
+			image: base + "objects/021.JPG"
 		},
 
 		{
@@ -327,7 +327,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "Permenant loan fron Virginia Museum of Fine Arts",
 			colors: [ "goldenrod", "raw-umber", "sepia", "really-almost-black"],
-			image: base + "objects/022.jpg"
+			image: base + "objects/022.JPG"
 		},
 
 		{
@@ -342,7 +342,7 @@ var items = [
 			provenance: "indoors",
 			creditline: "Unintentional loan from Alexandra von Trapp",
 			colors: ["warm-stone", "really-almost-black"],
-			image: base + "objects/023.jpg"
+			image: base + "objects/023.JPG"
 		},
 
 		{
@@ -357,7 +357,7 @@ var items = [
 			provenance: "outdoors",
 			creditline: "Memory on loan from Devon Danz",
 			colors: ["peaty-tan", "goldenrod"],
-			image: base + "objects/024.jpg"
+			image: base + "objects/024.JPG"
 		},
 
 		{
