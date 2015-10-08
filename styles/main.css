@@ -1,0 +1,308 @@
+html {
+	font-size: 10px;
+	font-family: 'Goudy Bookletter 1911', serif;
+}
+.block {
+	max-width: 60rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 1px solid #c8c9c3;
+}
+.header {
+	padding: 12rem 1rem 1rem 1rem;
+	background-color: white;
+	border: 1px solid #151515;
+}
+.header__logo {
+	font-size: 4rem;
+	color: #151515;
+	text-align: center;
+}
+.box {
+	padding: 10rem 1rem 1rem 1rem;
+	background-size: cover;
+}
+.box__text {
+	font-size: 2.7rem;
+	color: #151515;
+	background-color: rgba(240, 239, 237, 0.75);
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+.box--visit {
+	background-image: url("https://raw.githubusercontent.com/offenbad/FinalProject/gh-pages/objects/009.JPG");
+	background-position: top-right;
+}
+.box--collection {
+	background-image: url("https://raw.githubusercontent.com/offenbad/FinalProject/gh-pages/objects/011.JPG");
+	background-position: bottom-left;
+}
+.box--about {
+	background-image: url("https://raw.githubusercontent.com/offenbad/FinalProject/gh-pages/objects/015.JPG");
+	background-position: bottom;
+}
+
+.footer {
+	padding: 1rem 1rem .5rem 1rem;
+	background-color: #151515;
+}
+.footer__copyright {
+	font-size: 1rem;
+	color: #e5e3df;
+}
+
+
+/*PAGES STYLES */
+.header--pages {
+	background-color: #151515;
+}
+.header__logo--pages {
+	color: #e5e3df;
+}
+.box--pages--small {
+	padding: 5rem 1rem 1rem 5rem;
+	text-align: right;
+}
+.box--pages--large {
+	padding: 5rem 0rem;
+	background-color: white;
+}
+.box--pages--large__text {
+	padding: 1rem;
+	font-size: 2.3rem;
+	color: #151515;
+	display: block;
+}
+
+
+
+/*COLLECTION PAGE*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.button-group {
+	box-sizing: border-box;
+	width: 100%;
+	display: inline-block;
+	padding: 1rem 1rem 0rem 1rem;
+}
+.filter-button {
+	font-family: 'Goudy Bookletter 1911', serif;
+	border: 1px solid #c8c9c3;
+	border-radius: 2rem;
+	background-color: white;
+	padding: 1rem;
+	width: 14%;
+	box-sizing: border-box;
+	float: left;
+}
+.color-button {
+	border-radius: 2rem;
+	border: 1px solid white;
+	height: 3.7rem;
+	width: 5.5%;
+	float: left;
+}
+.color--peaty-tan {
+	background-color: #bdb76b;
+}
+.color--warm-stone {
+	background-color: #7b7356;
+}
+.color--outer-space {
+	background-color: #414a4c;
+}
+.color--cool-stone {
+	background-color: #858471;
+}
+.color--sea-green {
+	background-color: #8fbc8f;
+}
+.color--plant-green {
+	background-color: #2f4f4f;
+}
+.color--almost-black {
+	background-color: #4a443e;
+}
+.color--light-faun {
+	background-color: #cdc5c2;
+}
+.color--sonic-silver {
+	background-color: #757575;
+}
+.color--bluey-sonicsilver {
+	background-color: #918ab9;
+} 
+.color--really-almost-black {
+	background-color: #151515;
+}
+.color--warm-faun {
+	background-color: #8a795d;
+}
+.color--good-brick {
+	background-color: #871d1a;
+}
+.color--fire-brick {
+	background-color: #b22222;
+}
+.color--raw-umber {
+	background-color: #714b23;
+}
+.color--sepia {
+	background-color: #413109;
+}
+.color--warm-seagreen {
+	background-color: #c5e384;
+}
+.color--goldenrod {
+	background-color: #c4941c;
+}
+
+.grid {
+	padding-top: 1rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+.element-item {
+	margin: 1px;
+	padding: 1.5rem;
+	border: 1px solid #c8c9c3;
+	display: inline-block; 
+	height: 36rem;
+    width: 33%;
+	box-sizing: border-box;
+	float: left;
+}
+.element-item__image {
+	height: 17rem;
+	max-width: 17rem;
+	border: .5rem solid #e5e3df;
+	margin: 0 auto;
+	size: cover;
+	box-sizing: border-box;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.element-item__text {
+	padding-top: .5rem;
+	font-size: 1.2rem;
+	color: #151515;
+}
+.element-item__text__title {
+	font-style: italic;
+	font-size: 2rem;
+	text-align: right;
+	padding: 1rem 0rem;
+}
+.element-item__colors {
+	border-radius: 2rem;
+	border: 1px solid white;
+	height: 3.7rem;
+	width: 5.5%;
+	float: left;
+}
+
+
+/*LARGE ITEM MODAL*/
+
+.modal {
+	display: none;
+}
+.modal--visible{ 
+	display: block;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 10;
+    overflow-y: scroll;
+
+}
+.box--item {
+	max-width: 45rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 3rem;
+	border: 1px solid #c8c9c3;
+	background-color: white;
+}
+.box--item__image {
+	margin: 0 auto;
+	height: 40rem;
+	max-width: 40rem;
+	border: 1rem solid #e5e3df;
+	size: cover;
+	position: center;
+	box-sizing: border-box;
+}
+.box--item__text {
+	font-size: 2rem;
+	color: #151515;
+	padding-top: 1rem;
+	max-width: 38rem;
+	margin: 0 auto;
+}
+.box--item__text__title {
+	font-style: italic;
+	font-size: 3.5rem;
+	text-align: right;
+	padding: 1.5rem 0rem;
+}
+.box--item__text__italic {
+	font-style: italic;
+	padding-top: 1.7rem;
+}
+
+
+@media (max-width: 500px) {
+	.box__text {
+		font-size: 2.3rem;
+	}
+	.box--pages--large__text {
+		font-size: 2rem;
+	}
+	.box--item__text {
+		font-size: 1.7rem;
+	}
+	.box--item__text__title {
+		font-size: 3rem;
+	}
+	.element-item {
+		width: 49%;
+	}
+	.element-item__text {
+		font-size: 1.2rem;
+	}
+	.element-item__text__title {
+		font-size: 1.7rem;
+	}
+	.filter-button {
+		width: 24%;
+	}
+	.color-button {
+		width: 11%;
+	}
+}
+
+
+
+
+

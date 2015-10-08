@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+    
+    <title >Museum of Everything</title>
+    <link rel='stylesheet' href='styles/reset.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+    <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+  
+    
+</head>
+
+
+<body>
+
+	<div class="block header header--pages">
+		<a href="index.html">
+			<div class= "header__logo header__logo--pages">
+			The Museum of Everything
+			</div>
+		</a>
+	</div>
+
+
+
+	<div class="block box--pages--large clearfix">
+
+
+		<div class="box--pages--large__text">
+			Explore the Collection
+		</div>
+
+
+		<div class="button-group filter-button-group">
+
+			<button class="filter-button" data-filter="*">
+				show all</button>
+			<button class="filter-button" data-filter=".flora">
+				flora</button>
+			<button class="filter-button" data-filter=".fauna">
+				fauna</button>
+			<button class="filter-button" data-filter=".ephemera">
+				ephemera</button>
+			<button class="filter-button" data-filter=".indoors">
+				indoors</button>
+			<button class="filter-button" data-filter=".outdoors">
+				outdoors</button>
+			<button class="filter-button" data-filter=".art">
+				art</button>
+
+		</div>
+
+
+		<div class="button-group filter-button-group">
+
+			<button class="filter-button color-button color--light-faun" data-filter=".light-faun"></button>
+			<button class="filter-button color-button color--sonic-silver" data-filter=".sonic-silver"></button>
+			<button class="filter-button color-button color--bluey-sonicsilver" data-filter=".bluey-sonicsilver"></button>
+			<button class="filter-button color-button color--cool-stone" data-filter=".cool-stone"></button>
+			<button class="filter-button color-button color--warm-stone" data-filter=".warm-stone"></button>
+			<button class="filter-button color-button color--warm-faun" data-filter=".warm-faun"></button>
+			<button class="filter-button color-button color--peaty-tan" data-filter=".peaty-tan"></button>
+			<button class="filter-button color-button color--warm-seagreen" data-filter=".warm-seagreen"></button>
+			<button class="filter-button color-button color--sea-green" data-filter=".sea-green"></button>
+			<button class="filter-button color-button color--plant-green" data-filter=".plant-green"></button>
+			<button class="filter-button color-button color--outer-space" data-filter=".outer-space"></button>
+			<button class="filter-button color-button color--almost-black" data-filter=".almost-black"></button>
+			<button class="filter-button color-button color--really-almost-black" data-filter=".really-almost-black"></button>
+			<button class="filter-button color-button color--good-brick" data-filter=".good-brick"></button>
+			<button class="filter-button color-button color--fire-brick" data-filter=".fire-brick"></button>
+			<button class="filter-button color-button color--goldenrod" data-filter=".goldenrod"></button>
+			<button class="filter-button color-button color--raw-umber" data-filter=".raw-umber"></button>
+			<button class="filter-button color-button color--sepia" data-filter=".sepia"></button>
+			
+		</div>
+
+		
+		<div class="grid">
+		</div>
+
+			<script type="template" id="element-item-template--small">
+				<div class="js-element-item element-item <%= colors.join(' ') %> <%= provenance %> <%= medium %>">
+
+					<div class="element-item__image"><img src='<%=image %>'></div>
+					<div class="element-item__text element-item__text__title"><%= title %></div>
+					<div class="element-item__text">CREATOR: <%= creator %></div>
+					<div class="element-item__text">DEPT: <%= department %></div>
+					<div class="element-item__text">PERIOD: <%= period %></div>
+					<div class="element-item__text"><%= creditline %></div>
+					<div class="element-item__text"><%= accession_number %></div>
+
+				</div>
+			</script>
+
+
+			<!-- MODAL -->
+			<div class="modal"> 
+
+				<script type="template" id="element-item-template--large">
+				
+					<div class="box--item">
+						<div class="box--item__image"><img src='<%=image %>'></div>
+						<div class= "box--item__text box--item__text__title"><%= title %></div>
+						<div class= "box--item__text">ACCESSION NUMBER: <%= accession_number %></div>
+						<div class= "box--item__text">CREATOR: <%= creator %></div>
+						<div class= "box--item__text">DEPARTMENT: <%= department %></div>
+						<div class= "box--item__text">PERIOD: <%= period %></div>
+						<div class= "box--item__text">MEDIUM: <%= medium %></div>
+						<div class= "box--item__text">YEAR CREATED: <%= year_created%></div>
+						<div class= "box--item__text">YEAR ACQUIRED: <%= year_acquired %></div>
+						<div class= "box--item__text">PROVENANCE: <%= provenance %></div>
+						<div class= "box--item__text box--item__text__italic"><%= creditline %></div>
+					</div>
+
+			</script>	
+			</div> <!-- /MODAL -->
+						
+
+
+			
+	</div>
+
+
+
+		<div class="block box box--visit
+		box--pages--small">
+			<a href="visit.html" 
+			class="box__text">
+				Visit the Museum
+			</a>
+		</div>
+
+
+		<div class="block box box--about
+		box--pages--small">
+			<a href="about.html" 
+			class="box__text">
+				About the Museum
+			</a>
+		</div>	
+
+
+		<div class="block footer">
+			<div class="footer__copyright">
+				Copyright? Probably not.
+			</div>
+		</div>
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/main.js"></script>
+	
+
+ 
+</body>
+
+</html>
