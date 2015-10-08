@@ -34,15 +34,15 @@ a {
 }
 
 .box--visit {
-	background-image: url("../objects/009.jpg");
+	background-image: url("https://raw.githubusercontent.com/offenbad/FinalProject/gh-pages/objects/009.jpg");
 	background-position: top-right;
 }
 .box--collection {
-	background-image: url("../objects/011.jpg");
+	background-image: url("https://raw.githubusercontent.com/offenbad/FinalProject/gh-pages/objects/011.jpg");
 	background-position: bottom-left;
 }
 .box--about {
-	background-image: url("../objects/015.jpg");
+	background-image: url("https://raw.githubusercontent.com/offenbad/FinalProject/gh-pages/objects/015.jpg");
 	background-position: bottom;
 }
 
